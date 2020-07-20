@@ -14,7 +14,9 @@ public class App extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        creerStage("Vous avez été infecté par le Covid-19", "Un virus du nom de cocoronana a infecté votre cerveau").show();
+        for (int i = 0; i < 100; i++) {
+            creerStage("Vous avez été infecté par le Covid-19", "Un virus du nom de cocoronana a infecté votre cerveau").show();
+        }
     }
 
 
